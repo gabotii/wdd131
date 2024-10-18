@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(135deg, #e1e1e1 0%, #e8e8e8 100%);
+    box-sizing: border-box;
+}
+
+header, footer {
+    text-align: center;
+    background: linear-gradient(135deg, #34417a 0%, #76354e 100%);
+    color: #f0f0f0;    
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #0000001a;
+   
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.review-details {
+    margin: 0 auto;
+    background: #e8e4e4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(23, 28, 101, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid #ffffff4e;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
