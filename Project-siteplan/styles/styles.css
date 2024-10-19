@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #004C9E;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: to visually separate sections */
+    border-radius: 5px; /* Rounded corners */
+}
+
+h2 {
+    color: #00366B;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
+    margin-top: 40px;
+}
+
+/* Navigation link styles can be added if needed */
+.nav-link {
+    color: #004C9E; /* Change the text color of nav links */
+}
+
+.nav-link:hover {
+    color: #003366; /* Change color on hover */
+}
